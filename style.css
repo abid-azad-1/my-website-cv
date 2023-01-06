@@ -27,7 +27,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
     align-items: center;
 }
 .nav-title{
@@ -39,7 +39,16 @@ nav ul{
     display: flex;
     align-items: center;
     
-
+}
+.hover{
+    padding: 16px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+}
+.hover:hover{
+    background-color: #fffb00;
+    size: 50px;
 }
 nav li{
     list-style: none;
