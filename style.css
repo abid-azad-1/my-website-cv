@@ -13,7 +13,7 @@
     border: none;
     padding: 18px 35px;
     border-radius: 5px;
-    background: #FD6E0A;
+    background: #fd710d;
     margin-left: 20px;
 
 }
@@ -92,8 +92,10 @@ section{
     margin-bottom: 30px;
     font-weight: 700;
     font-size: 35px;
+    background-color: #FD6E0A;
 
 }
+
 .section-description{
     color: #757575;
     font-size: 18px;
@@ -122,7 +124,9 @@ section{
     font-size: 20px;
     margin-bottom: 20px;
 }
-
+.what-i-do:hover{
+    background-color: #fffb00;
+}
 .skill-container{
         display: flex;
         gap: 24px;
@@ -146,11 +150,16 @@ section{
     display: flex;
     gap: 30px;
 }
+.resume-title{
+    background-color: #ff0000;
+}
 .resume .title{
     font-weight: 700;
     font-size: 25px;
     color: #757575;
     margin-bottom: 10px;
+    background-color: aqua;
+   
 }
 .resume .sub--title{
     color: #757575;
@@ -166,6 +175,43 @@ section{
     margin-top: 50px;
     text-align: center;
 }
+.contact .section--title{
+    margin-bottom: 24px;
+    text-align: left;
+
+}
+.input{
+    margin-bottom: 24px;
+    border: 0;
+    padding:18px 30px;
+    width: 200px;
+    height: 20px;
+}
+.textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding:18px 30px;
+}
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #fff8f3;
+    padding: 130px 200px;
+}
+.contact a{
+    text-decoration: none;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.pra:hover{
+    background-color: #fd710d
+}
+.pra{
+    margin-bottom: 24px;
+}
+
+
 
 
 
